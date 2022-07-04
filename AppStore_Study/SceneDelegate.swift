@@ -18,7 +18,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.backgroundColor = .systemBackground
         
         // 뷰컨 초기화해서 루트뷰 컨트롤러로 설정
-        window?.rootViewController = ViewController()
+        window?.rootViewController = TabBarController()
         window?.makeKeyAndVisible()
     }
 

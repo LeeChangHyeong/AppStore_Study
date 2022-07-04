@@ -16,6 +16,7 @@
 		32642EE4287321A300CF2E00 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 32642EE3287321A300CF2E00 /* SnapKit */; };
 		32642EE828733E9A00CF2E00 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32642EE728733E9A00CF2E00 /* TodayViewController.swift */; };
 		32642EEA28734F1F00CF2E00 /* TodayCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32642EE928734F1F00CF2E00 /* TodayCollectionViewCell.swift */; };
+		32642EEC287359E500CF2E00 /* TodayCollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32642EEB287359E500CF2E00 /* TodayCollectionHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		32642ED928730E0B00CF2E00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32642EE728733E9A00CF2E00 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 		32642EE928734F1F00CF2E00 /* TodayCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayCollectionViewCell.swift; sourceTree = "<group>"; };
+		32642EEB287359E500CF2E00 /* TodayCollectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayCollectionHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				32642EE728733E9A00CF2E00 /* TodayViewController.swift */,
 				32642EE928734F1F00CF2E00 /* TodayCollectionViewCell.swift */,
+				32642EEB287359E500CF2E00 /* TodayCollectionHeaderView.swift */,
 			);
 			path = Today;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 				32642EE828733E9A00CF2E00 /* TodayViewController.swift in Sources */,
 				32642ED028730E0A00CF2E00 /* TabBarController.swift in Sources */,
 				32642ECC28730E0A00CF2E00 /* AppDelegate.swift in Sources */,
+				32642EEC287359E500CF2E00 /* TodayCollectionHeaderView.swift in Sources */,
 				32642ECE28730E0A00CF2E00 /* SceneDelegate.swift in Sources */,
 				32642EEA28734F1F00CF2E00 /* TodayCollectionViewCell.swift in Sources */,
 			);

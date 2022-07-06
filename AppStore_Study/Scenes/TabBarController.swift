@@ -9,6 +9,8 @@ import UIKit
 
 class TabBarController: UITabBarController {
     
+    
+    // MARK: 투데이뷰
     private lazy var todayViewController: UIViewController = {
         let viewController = TodayViewController()
         let tabBarItem = UITabBarItem(
@@ -22,8 +24,10 @@ class TabBarController: UITabBarController {
         
     }()
     
+    // MARK: 앱뷰
     private lazy var appViewController: UIViewController = {
-        let viewController = UIViewController()
+        // MARK: 앱뷰를 네비게이션컨트롤러로 감싸줌
+        let viewController = UINavigationController(rootViewController: AppViewController())
         let tabBarItem = UITabBarItem(
             title: "앱",
             image: UIImage(systemName: "square.stack.3d.up"),

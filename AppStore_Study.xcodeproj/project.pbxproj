@@ -17,6 +17,7 @@
 		32642EE828733E9A00CF2E00 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32642EE728733E9A00CF2E00 /* TodayViewController.swift */; };
 		32642EEA28734F1F00CF2E00 /* TodayCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32642EE928734F1F00CF2E00 /* TodayCollectionViewCell.swift */; };
 		32642EEC287359E500CF2E00 /* TodayCollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32642EEB287359E500CF2E00 /* TodayCollectionHeaderView.swift */; };
+		32642EEE2875408700CF2E00 /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32642EED2875408700CF2E00 /* AppViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		32642EE728733E9A00CF2E00 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 		32642EE928734F1F00CF2E00 /* TodayCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayCollectionViewCell.swift; sourceTree = "<group>"; };
 		32642EEB287359E500CF2E00 /* TodayCollectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayCollectionHeaderView.swift; sourceTree = "<group>"; };
+		32642EED2875408700CF2E00 /* AppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,10 +89,19 @@
 		32642EE628733E4B00CF2E00 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				32642EEF2875409400CF2E00 /* App */,
 				32642EE528733E1100CF2E00 /* Today */,
 				32642ECF28730E0A00CF2E00 /* TabBarController.swift */,
 			);
 			path = Scenes;
+			sourceTree = "<group>";
+		};
+		32642EEF2875409400CF2E00 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				32642EED2875408700CF2E00 /* AppViewController.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,6 +186,7 @@
 				32642ED028730E0A00CF2E00 /* TabBarController.swift in Sources */,
 				32642ECC28730E0A00CF2E00 /* AppDelegate.swift in Sources */,
 				32642EEC287359E500CF2E00 /* TodayCollectionHeaderView.swift in Sources */,
+				32642EEE2875408700CF2E00 /* AppViewController.swift in Sources */,
 				32642ECE28730E0A00CF2E00 /* SceneDelegate.swift in Sources */,
 				32642EEA28734F1F00CF2E00 /* TodayCollectionViewCell.swift in Sources */,
 			);
